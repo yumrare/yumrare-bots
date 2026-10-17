@@ -1,0 +1,10 @@
+# YumRare bots — Python dependencies.
+#
+# Bluesky posting (AT Protocol), the feed keeper, and the shelf watcher
+# use ONLY the Python standard library.
+#
+# The two packages below are used solely by find_of_day.py's Tumblr
+# poster (OAuth1-signed multipart photo post) and are imported lazily —
+# every bot runs, including all dry-run modes, without them installed.
+requests>=2.31
+requests-oauthlib>=1.3

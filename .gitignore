@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+# Local scratch only — reports/, google-feed.xml and rotation_state.json
+# ARE tracked on purpose (the workflows commit them back).
+*.local.json
