@@ -1,0 +1,41 @@
+name: Shelf Watcher
+
+# Daily early morning US/Central (~6:00 CDT / ~5:00 CST): check every
+# outbound seller + eBay link, write a Markdown report. This workflow
+# never posts or sends anything anywhere.
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shelf-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the shelf
+        run: python3 shelf_watcher.py
+
+      - name: Commit the report back
+        run: |
+          git config user.name "yumrare-bots"
+          git config user.email "garveythepug+yumrare@gmail.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "no new report"
+          else
+            git commit -m "shelf-watcher: daily report"
+            git push
+          fi
