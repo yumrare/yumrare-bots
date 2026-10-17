@@ -13,9 +13,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "milkis",
+      "at": "2026-10-17T17:32:24.216010+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "moxie",
+  "last_slug": "milkis",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -25,8 +33,17 @@
       "moxie": {
         "at": "2026-10-17T14:16:38.444693+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my3bqx6uke2s"
+      },
+      "milkis": {
+        "at": "2026-10-17T17:32:22.493069+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my3mox7kgh2p"
       }
     },
-    "tumblr": {}
+    "tumblr": {
+      "milkis": {
+        "at": "2026-10-17T17:32:24.215423+00:00",
+        "ref": "830743084431212544"
+      }
+    }
   }
 }
