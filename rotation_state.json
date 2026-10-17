@@ -6,14 +6,25 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "moxie",
+      "at": "2026-10-17T14:16:38.444998+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "irn-bru",
+  "last_slug": "moxie",
   "posted": {
     "bluesky": {
       "irn-bru": {
         "at": "2026-10-17T13:31:59.757990+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my37b4pcyd2d"
+      },
+      "moxie": {
+        "at": "2026-10-17T14:16:38.444693+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my3bqx6uke2s"
       }
     },
     "tumblr": {}
