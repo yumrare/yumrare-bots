@@ -21,9 +21,17 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "inca-kola",
+      "at": "2026-10-18T14:17:04.066488+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "milkis",
+  "last_slug": "inca-kola",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -37,12 +45,20 @@
       "milkis": {
         "at": "2026-10-17T17:32:22.493069+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my3mox7kgh2p"
+      },
+      "inca-kola": {
+        "at": "2026-10-18T14:17:03.085241+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my5sam33rm2q"
       }
     },
     "tumblr": {
       "milkis": {
         "at": "2026-10-17T17:32:24.215423+00:00",
         "ref": "830743084431212544"
+      },
+      "inca-kola": {
+        "at": "2026-10-18T14:17:04.066039+00:00",
+        "ref": "830821392781082624"
       }
     }
   }
