@@ -29,9 +29,17 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "vernors",
+      "at": "2026-10-19T14:29:54.167738+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "inca-kola",
+  "last_slug": "vernors",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -49,6 +57,10 @@
       "inca-kola": {
         "at": "2026-10-18T14:17:03.085241+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3my5sam33rm2q"
+      },
+      "vernors": {
+        "at": "2026-10-19T14:29:53.399904+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myadghzr672d"
       }
     },
     "tumblr": {
@@ -59,6 +71,10 @@
       "inca-kola": {
         "at": "2026-10-18T14:17:04.066039+00:00",
         "ref": "830821392781082624"
+      },
+      "vernors": {
+        "at": "2026-10-19T14:29:54.167254+00:00",
+        "ref": "830912797253812224"
       }
     }
   }
