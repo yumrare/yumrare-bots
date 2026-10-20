@@ -37,9 +37,17 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "guarana-antarctica",
+      "at": "2026-10-20T14:26:01.689437+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "vernors",
+  "last_slug": "guarana-antarctica",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -61,6 +69,10 @@
       "vernors": {
         "at": "2026-10-19T14:29:53.399904+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myadghzr672d"
+      },
+      "guarana-antarctica": {
+        "at": "2026-10-20T14:25:59.944541+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myctoguqfq2o"
       }
     },
     "tumblr": {
@@ -75,6 +87,10 @@
       "vernors": {
         "at": "2026-10-19T14:29:54.167254+00:00",
         "ref": "830912797253812224"
+      },
+      "guarana-antarctica": {
+        "at": "2026-10-20T14:26:01.688922+00:00",
+        "ref": "831003150229143552"
       }
     }
   }
