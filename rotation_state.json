@@ -95,9 +95,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "kinnie",
+      "at": "2026-10-21T23:54:43.127413+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "sangaria-ramune",
+  "last_slug": "kinnie",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -139,6 +146,10 @@
       "bundaberg-ginger-beer": {
         "at": "2026-10-21T21:59:09.037629+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myg5ho2sog2n"
+      },
+      "kinnie": {
+        "at": "2026-10-21T23:54:43.126994+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mygdwcwcel2e"
       }
     },
     "tumblr": {
