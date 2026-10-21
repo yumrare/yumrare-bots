@@ -67,9 +67,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "orangina",
+      "at": "2026-10-21T20:22:01.838595+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "mitsuya-cider",
+  "last_slug": "orangina",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -129,6 +136,10 @@
       "sidral-mundet": {
         "at": "2026-10-21T14:26:05.810281+00:00",
         "ref": "831093751107796992"
+      },
+      "orangina": {
+        "at": "2026-10-21T20:22:01.838253+00:00",
+        "ref": "831116144906846208"
       }
     }
   }
