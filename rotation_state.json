@@ -45,9 +45,17 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "sidral-mundet",
+      "at": "2026-10-21T14:26:05.810793+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "guarana-antarctica",
+  "last_slug": "sidral-mundet",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -73,6 +81,10 @@
       "guarana-antarctica": {
         "at": "2026-10-20T14:25:59.944541+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myctoguqfq2o"
+      },
+      "sidral-mundet": {
+        "at": "2026-10-21T14:26:04.024231+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfe5ibv7v2r"
       }
     },
     "tumblr": {
@@ -91,6 +103,10 @@
       "guarana-antarctica": {
         "at": "2026-10-20T14:26:01.688922+00:00",
         "ref": "831003150229143552"
+      },
+      "sidral-mundet": {
+        "at": "2026-10-21T14:26:05.810281+00:00",
+        "ref": "831093751107796992"
       }
     }
   }
