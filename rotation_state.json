@@ -88,9 +88,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "sangaria-ramune",
+      "at": "2026-10-21T22:57:35.734282+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "bundaberg-ginger-beer",
+  "last_slug": "sangaria-ramune",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -162,6 +169,10 @@
       "ting": {
         "at": "2026-10-21T20:56:51.743530+00:00",
         "ref": "831118336583745536"
+      },
+      "sangaria-ramune": {
+        "at": "2026-10-21T22:57:35.733737+00:00",
+        "ref": "831125932445204480"
       }
     }
   }
