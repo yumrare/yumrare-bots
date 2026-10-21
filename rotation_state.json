@@ -81,9 +81,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "bundaberg-ginger-beer",
+      "at": "2026-10-21T21:59:09.037988+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "ting",
+  "last_slug": "bundaberg-ginger-beer",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -121,6 +128,10 @@
       "mitsuya-cider": {
         "at": "2026-10-21T20:05:22.192717+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfx47577k2y"
+      },
+      "bundaberg-ginger-beer": {
+        "at": "2026-10-21T21:59:09.037629+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myg5ho2sog2n"
       }
     },
     "tumblr": {
