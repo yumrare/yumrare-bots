@@ -110,7 +110,10 @@ def compose(item):
         bio = (item.get("bio") or item.get("blurb") or "").strip()
         hook = bio.split(". ")[0].rstrip(".") + "." if bio else ""
     url = item_url(item)
-    tail = f" {price_str(item)} + $3.95 shipping, free at $50+. {url}"
+    # Dee's rule (2026-10-21): the bare domain yumrare.com appears in
+    # every post as its own closing signature line, not only inside
+    # the item URL.
+    tail = f" {price_str(item)} + $3.95 shipping, free at $50+. {url}\nyumrare.com"
     head = f"Find of the day: {item['name']} — "
     text = head + hook + tail
     if len(text) > BLUESKY_LIMIT:
@@ -169,20 +172,31 @@ def post_bluesky(item, text):
         "https://bsky.social/xrpc/com.atproto.repo.uploadBlob",
         token=token, data=img, content_type=mime,
     )["blob"]
-    # Link facet: byte offsets into the UTF-8 encoding of the text.
+    # Link facets: byte offsets into the UTF-8 encoding of the text.
     url = item_url(item)
     idx = text.rindex(url)
     bstart = len(text[:idx].encode("utf-8"))
     bend = bstart + len(url.encode("utf-8"))
+    facets = [{
+        "index": {"byteStart": bstart, "byteEnd": bend},
+        "features": [{"$type": "app.bsky.richtext.facet#link", "uri": url}],
+    }]
+    # Signature facet: the closing "yumrare.com" line links to the
+    # storefront. rindex finds the signature (the item URL contains
+    # the domain too, but earlier in the text).
+    sig = "yumrare.com"
+    sidx = text.rindex(sig)
+    sb = len(text[:sidx].encode("utf-8"))
+    facets.append({
+        "index": {"byteStart": sb, "byteEnd": sb + len(sig.encode("utf-8"))},
+        "features": [{"$type": "app.bsky.richtext.facet#link", "uri": SITE}],
+    })
     record = {
         "$type": "app.bsky.feed.post",
         "text": text,
         "createdAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "langs": ["en"],
-        "facets": [{
-            "index": {"byteStart": bstart, "byteEnd": bend},
-            "features": [{"$type": "app.bsky.richtext.facet#link", "uri": url}],
-        }],
+        "facets": facets,
         "embed": {
             "$type": "app.bsky.embed.images",
             "images": [{"alt": item["name"], "image": blob}],
