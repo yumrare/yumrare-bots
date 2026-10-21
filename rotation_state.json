@@ -53,9 +53,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "calpis-soda",
+      "at": "2026-10-21T19:44:16.890564+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "sidral-mundet",
+  "last_slug": "calpis-soda",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -85,6 +92,10 @@
       "sidral-mundet": {
         "at": "2026-10-21T14:26:04.024231+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfe5ibv7v2r"
+      },
+      "calpis-soda": {
+        "at": "2026-10-21T19:44:16.890165+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfvwinxl32r"
       }
     },
     "tumblr": {
