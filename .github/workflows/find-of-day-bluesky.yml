@@ -1,0 +1,68 @@
+name: Find of the Day — Bluesky extra
+
+# Six extra Bluesky-only Find-of-the-Day runs per day (Dee's order,
+# 2026-10-21: @yumrare to 7 posts/day). With the main find-of-day.yml
+# run (~9:00 AM CT, Bluesky + Tumblr), Bluesky gets 7 finds/day while
+# Tumblr stays at 1/day. This workflow passes ONLY the Bluesky
+# secrets, so the bot treats Tumblr as "not configured" for these
+# runs and posts Bluesky-only; rotation still advances one item per
+# run via the shared rotation_state.json.
+#
+# Times are UTC (GitHub cron); CT equivalents during daylight time:
+# 8:00 AM, 10:30 AM, 12:30 PM, 2:30 PM, 4:30 PM, 6:30 PM. One-hour
+# seasonal drift in standard time is accepted, same as the main run.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+    - cron: "30 15 * * *"
+    - cron: "30 17 * * *"
+    - cron: "30 19 * * *"
+    - cron: "30 21 * * *"
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Compose only, post nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Same group as find-of-day.yml: runs serialize, so rotation state
+# commits never race.
+concurrency:
+  group: find-of-day
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No pip install: Bluesky posting is pure stdlib, and the
+      # Tumblr libraries are imported lazily only when Tumblr runs.
+      - name: Post the next find (Bluesky only)
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || vars.DRY_RUN }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: python3 find_of_day.py
+
+      - name: Commit rotation state back
+        if: always()
+        run: |
+          git config user.name "yumrare-bots"
+          git config user.email "garveythepug+yumrare@gmail.com"
+          git add rotation_state.json
+          if git diff --cached --quiet; then
+            echo "state unchanged"
+          else
+            git commit -m "find-of-day: rotation state"
+            git push
+          fi
