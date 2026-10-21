@@ -1,0 +1,72 @@
+name: Find of the Day — Tumblr extra
+
+# Four extra Tumblr-only Find-of-the-Day runs per day (Dee's order,
+# 2026-10-21: YumRare Tumblr to 5 posts/day). With the main
+# find-of-day.yml run (~9:00 AM CT, Bluesky + Tumblr), Tumblr gets
+# 5 finds/day while Bluesky runs its own 7/day schedule. This
+# workflow passes ONLY the Tumblr secrets, so the bot treats
+# Bluesky as "not configured" for these runs and posts Tumblr-only;
+# rotation still advances one item per run via the shared
+# rotation_state.json.
+#
+# Times are UTC (GitHub cron); CT equivalents during daylight time:
+# 11:30 AM, 1:30 PM, 3:30 PM, 5:30 PM — interleaved between the
+# Bluesky runs. One-hour seasonal drift in standard time is
+# accepted, same as the main run.
+on:
+  schedule:
+    - cron: "30 16 * * *"
+    - cron: "30 18 * * *"
+    - cron: "30 20 * * *"
+    - cron: "30 22 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Compose only, post nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Same group as find-of-day.yml: runs serialize, so rotation state
+# commits never race.
+concurrency:
+  group: find-of-day
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies (Tumblr only; the rest is stdlib)
+        run: pip install -r requirements.txt
+
+      - name: Post the next find (Tumblr only)
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || vars.DRY_RUN }}
+          TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_TOKEN: ${{ secrets.TUMBLR_TOKEN }}
+          TUMBLR_TOKEN_SECRET: ${{ secrets.TUMBLR_TOKEN_SECRET }}
+          TUMBLR_BLOG: ${{ secrets.TUMBLR_BLOG }}
+        run: python3 find_of_day.py
+
+      - name: Commit rotation state back
+        if: always()
+        run: |
+          git config user.name "yumrare-bots"
+          git config user.email "garveythepug+yumrare@gmail.com"
+          git add rotation_state.json
+          if git diff --cached --quiet; then
+            echo "state unchanged"
+          else
+            git commit -m "find-of-day: rotation state"
+            git push
+          fi
