@@ -60,9 +60,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "mitsuya-cider",
+      "at": "2026-10-21T20:05:22.192973+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "calpis-soda",
+  "last_slug": "mitsuya-cider",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -96,6 +103,10 @@
       "calpis-soda": {
         "at": "2026-10-21T19:44:16.890165+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfvwinxl32r"
+      },
+      "mitsuya-cider": {
+        "at": "2026-10-21T20:05:22.192717+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myfx47577k2y"
       }
     },
     "tumblr": {
