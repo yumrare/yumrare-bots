@@ -138,9 +138,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "manzana-postobon",
+      "at": "2026-10-22T19:09:46.041401+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "barr-bubblegum",
+  "last_slug": "manzana-postobon",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -244,6 +251,10 @@
       "sanpellegrino-chinotto": {
         "at": "2026-10-22T17:05:17.444591+00:00",
         "ref": "831194364228370432"
+      },
+      "manzana-postobon": {
+        "at": "2026-10-22T19:09:46.040642+00:00",
+        "ref": "831202195632455680"
       }
     }
   }
