@@ -124,9 +124,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "sanpellegrino-chinotto",
+      "at": "2026-10-22T17:05:17.445147+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "solo-lemon",
+  "last_slug": "sanpellegrino-chinotto",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -222,6 +229,10 @@
       "fanta-shokata": {
         "at": "2026-10-22T14:27:50.568034+00:00",
         "ref": "831184458552131584"
+      },
+      "sanpellegrino-chinotto": {
+        "at": "2026-10-22T17:05:17.444591+00:00",
+        "ref": "831194364228370432"
       }
     }
   }
