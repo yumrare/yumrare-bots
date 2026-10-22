@@ -109,9 +109,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "fanta-shokata",
+      "at": "2026-10-22T14:27:50.568569+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "fanta-melon",
+  "last_slug": "fanta-shokata",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -161,6 +169,10 @@
       "fanta-melon": {
         "at": "2026-10-22T13:38:23.053341+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myhrx5hcig23"
+      },
+      "fanta-shokata": {
+        "at": "2026-10-22T14:27:49.646435+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myhupkh6eu2o"
       }
     },
     "tumblr": {
@@ -195,6 +207,10 @@
       "sangaria-ramune": {
         "at": "2026-10-21T22:57:35.733737+00:00",
         "ref": "831125932445204480"
+      },
+      "fanta-shokata": {
+        "at": "2026-10-22T14:27:50.568034+00:00",
+        "ref": "831184458552131584"
       }
     }
   }
