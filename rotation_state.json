@@ -166,9 +166,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "fanta-white-peach-japan",
+      "at": "2026-10-22T22:58:49.229335+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "rubicon-sparkling-mango",
+  "last_slug": "fanta-white-peach-japan",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -288,6 +295,10 @@
       "club-orange": {
         "at": "2026-10-22T20:57:13.942376+00:00",
         "ref": "831208956797091840"
+      },
+      "fanta-white-peach-japan": {
+        "at": "2026-10-22T22:58:49.228674+00:00",
+        "ref": "831216605994369024"
       }
     }
   }
