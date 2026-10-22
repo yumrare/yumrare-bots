@@ -145,9 +145,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "lucozade-energy-original",
+      "at": "2026-10-22T19:59:37.154458+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "manzana-postobon",
+  "last_slug": "lucozade-energy-original",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -209,6 +216,10 @@
       "barr-bubblegum": {
         "at": "2026-10-22T17:57:43.129718+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myiagubltk2y"
+      },
+      "lucozade-energy-original": {
+        "at": "2026-10-22T19:59:37.153873+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myihatrf7e2y"
       }
     },
     "tumblr": {
