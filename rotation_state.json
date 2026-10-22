@@ -152,9 +152,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "club-orange",
+      "at": "2026-10-22T20:57:13.942829+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "lucozade-energy-original",
+  "last_slug": "club-orange",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -266,6 +273,10 @@
       "manzana-postobon": {
         "at": "2026-10-22T19:09:46.040642+00:00",
         "ref": "831202195632455680"
+      },
+      "club-orange": {
+        "at": "2026-10-22T20:57:13.942376+00:00",
+        "ref": "831208956797091840"
       }
     }
   }
