@@ -159,9 +159,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "rubicon-sparkling-mango",
+      "at": "2026-10-22T21:57:42.862788+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "club-orange",
+  "last_slug": "rubicon-sparkling-mango",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -227,6 +234,10 @@
       "lucozade-energy-original": {
         "at": "2026-10-22T19:59:37.153873+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myihatrf7e2y"
+      },
+      "rubicon-sparkling-mango": {
+        "at": "2026-10-22T21:57:42.862108+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myintyr3zi2s"
       }
     },
     "tumblr": {
