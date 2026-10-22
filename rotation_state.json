@@ -131,9 +131,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "barr-bubblegum",
+      "at": "2026-10-22T17:57:43.130193+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "sanpellegrino-chinotto",
+  "last_slug": "barr-bubblegum",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -191,6 +198,10 @@
       "solo-lemon": {
         "at": "2026-10-22T16:06:04.350038+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myi277zbqe2k"
+      },
+      "barr-bubblegum": {
+        "at": "2026-10-22T17:57:43.129718+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myiagubltk2y"
       }
     },
     "tumblr": {
