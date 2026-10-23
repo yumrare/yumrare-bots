@@ -223,9 +223,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "hi-chew-shikuwasa",
+      "at": "2026-10-23T19:55:29.244952+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "kit-kat-chunky-peanut-butter",
+  "last_slug": "hi-chew-shikuwasa",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -315,6 +322,10 @@
       "aero-smores": {
         "at": "2026-10-23T17:56:17.783549+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mykqtalcl526"
+      },
+      "hi-chew-shikuwasa": {
+        "at": "2026-10-23T19:55:29.244054+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mykxier7e62s"
       }
     },
     "tumblr": {
