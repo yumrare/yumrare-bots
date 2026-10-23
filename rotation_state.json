@@ -230,9 +230,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "kororo-muscat-grape",
+      "at": "2026-10-23T20:55:52.026324+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "hi-chew-shikuwasa",
+  "last_slug": "kororo-muscat-grape",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -392,6 +399,10 @@
       "kit-kat-chunky-peanut-butter": {
         "at": "2026-10-23T19:08:13.051679+00:00",
         "ref": "831292695182016512"
+      },
+      "kororo-muscat-grape": {
+        "at": "2026-10-23T20:55:52.025666+00:00",
+        "ref": "831299467392221184"
       }
     }
   }
