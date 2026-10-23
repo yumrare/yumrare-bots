@@ -180,9 +180,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "kit-kat-rich-matcha",
+      "at": "2026-10-23T13:34:21.397179+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "barr-tizer",
+  "last_slug": "kit-kat-rich-matcha",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -256,6 +263,10 @@
       "barr-tizer": {
         "at": "2026-10-22T23:54:33.220037+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myiuewrakh2a"
+      },
+      "kit-kat-rich-matcha": {
+        "at": "2026-10-23T13:34:21.396570+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mykc6uio7b23"
       }
     },
     "tumblr": {
