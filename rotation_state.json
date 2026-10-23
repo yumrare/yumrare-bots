@@ -251,9 +251,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "kinoko-no-yama",
+      "at": "2026-10-23T23:54:24.540930+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "apollo-strawberry",
+  "last_slug": "kinoko-no-yama",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -351,6 +358,10 @@
       "alfort-mini-chocolate": {
         "at": "2026-10-23T21:56:52.198268+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myl6bgg46b2q"
+      },
+      "kinoko-no-yama": {
+        "at": "2026-10-23T23:54:24.509954+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myletm5e6g2y"
       }
     },
     "tumblr": {
