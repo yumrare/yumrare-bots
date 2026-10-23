@@ -187,9 +187,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "coffee-crisp",
+      "at": "2026-10-23T14:29:06.550728+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "kit-kat-rich-matcha",
+  "last_slug": "coffee-crisp",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -267,6 +275,10 @@
       "kit-kat-rich-matcha": {
         "at": "2026-10-23T13:34:21.396570+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mykc6uio7b23"
+      },
+      "coffee-crisp": {
+        "at": "2026-10-23T14:29:05.262557+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mykfapqpn223"
       }
     },
     "tumblr": {
@@ -321,6 +333,10 @@
       "fanta-white-peach-japan": {
         "at": "2026-10-22T22:58:49.228674+00:00",
         "ref": "831216605994369024"
+      },
+      "coffee-crisp": {
+        "at": "2026-10-23T14:29:06.550024+00:00",
+        "ref": "831275135139971072"
       }
     }
   }
