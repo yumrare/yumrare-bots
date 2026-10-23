@@ -244,9 +244,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "apollo-strawberry",
+      "at": "2026-10-23T22:57:27.524878+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "alfort-mini-chocolate",
+  "last_slug": "apollo-strawberry",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -414,6 +421,10 @@
       "kororo-muscat-grape": {
         "at": "2026-10-23T20:55:52.025666+00:00",
         "ref": "831299467392221184"
+      },
+      "apollo-strawberry": {
+        "at": "2026-10-23T22:57:27.524247+00:00",
+        "ref": "831307117290995712"
       }
     }
   }
