@@ -287,9 +287,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "cherry-ripe",
+      "at": "2026-10-24T17:51:32.639933+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "jelly-babies",
+  "last_slug": "cherry-ripe",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -403,6 +410,10 @@
       "wispa": {
         "at": "2026-10-24T15:57:43.800619+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myn2o5s6wo27"
+      },
+      "cherry-ripe": {
+        "at": "2026-10-24T17:51:32.639412+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynazoau3224"
       }
     },
     "tumblr": {
