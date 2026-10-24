@@ -308,9 +308,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "duvalin",
+      "at": "2026-10-24T20:49:15.303955+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "top-deck",
+  "last_slug": "duvalin",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -518,6 +525,10 @@
       "caramello-koala": {
         "at": "2026-10-24T18:58:38.136235+00:00",
         "ref": "831382689315733504"
+      },
+      "duvalin": {
+        "at": "2026-10-24T20:49:15.303310+00:00",
+        "ref": "831389648878190592"
       }
     }
   }
