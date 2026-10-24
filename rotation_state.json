@@ -273,9 +273,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "wispa",
+      "at": "2026-10-24T15:57:43.801487+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "crunchie",
+  "last_slug": "wispa",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -385,6 +392,10 @@
       "crunchie": {
         "at": "2026-10-24T14:17:40.579374+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mymv3altcc2i"
+      },
+      "wispa": {
+        "at": "2026-10-24T15:57:43.800619+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myn2o5s6wo27"
       }
     },
     "tumblr": {
