@@ -329,9 +329,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "galaxy-minstrels",
+      "at": "2026-10-24T23:48:50.357768+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "haribo-tangfastics",
+  "last_slug": "galaxy-minstrels",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -457,6 +464,10 @@
       "maoam-kracher": {
         "at": "2026-10-24T21:52:41.991297+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynoivaqr22z"
+      },
+      "galaxy-minstrels": {
+        "at": "2026-10-24T23:48:50.356965+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynuyksj4r2n"
       }
     },
     "tumblr": {
