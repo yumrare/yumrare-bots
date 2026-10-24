@@ -294,9 +294,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "caramello-koala",
+      "at": "2026-10-24T18:58:38.137057+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "cherry-ripe",
+  "last_slug": "caramello-koala",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -496,6 +503,10 @@
       "jelly-babies": {
         "at": "2026-10-24T16:58:30.216276+00:00",
         "ref": "831375131199832064"
+      },
+      "caramello-koala": {
+        "at": "2026-10-24T18:58:38.136235+00:00",
+        "ref": "831382689315733504"
       }
     }
   }
