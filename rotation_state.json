@@ -322,9 +322,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "haribo-tangfastics",
+      "at": "2026-10-24T22:52:50.683004+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "maoam-kracher",
+  "last_slug": "haribo-tangfastics",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -540,6 +547,10 @@
       "duvalin": {
         "at": "2026-10-24T20:49:15.303310+00:00",
         "ref": "831389648878190592"
+      },
+      "haribo-tangfastics": {
+        "at": "2026-10-24T22:52:50.682331+00:00",
+        "ref": "831397423948742656"
       }
     }
   }
