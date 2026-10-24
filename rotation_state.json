@@ -315,9 +315,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "maoam-kracher",
+      "at": "2026-10-24T21:52:41.992097+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "duvalin",
+  "last_slug": "maoam-kracher",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -439,6 +446,10 @@
       "top-deck": {
         "at": "2026-10-24T19:48:30.957775+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynhktel6324"
+      },
+      "maoam-kracher": {
+        "at": "2026-10-24T21:52:41.991297+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynoivaqr22z"
       }
     },
     "tumblr": {
