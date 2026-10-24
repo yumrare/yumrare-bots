@@ -258,9 +258,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "eat-more",
+      "at": "2026-10-24T13:25:53.083979+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "kinoko-no-yama",
+  "last_slug": "eat-more",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -362,6 +369,10 @@
       "kinoko-no-yama": {
         "at": "2026-10-23T23:54:24.509954+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myletm5e6g2y"
+      },
+      "eat-more": {
+        "at": "2026-10-24T13:25:53.083111+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myms6n4brj2i"
       }
     },
     "tumblr": {
