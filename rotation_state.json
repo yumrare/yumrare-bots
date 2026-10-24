@@ -265,9 +265,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "crunchie",
+      "at": "2026-10-24T14:17:41.893167+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "eat-more",
+  "last_slug": "crunchie",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -373,6 +381,10 @@
       "eat-more": {
         "at": "2026-10-24T13:25:53.083111+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myms6n4brj2i"
+      },
+      "crunchie": {
+        "at": "2026-10-24T14:17:40.579374+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mymv3altcc2i"
       }
     },
     "tumblr": {
@@ -447,6 +459,10 @@
       "apollo-strawberry": {
         "at": "2026-10-23T22:57:27.524247+00:00",
         "ref": "831307117290995712"
+      },
+      "crunchie": {
+        "at": "2026-10-24T14:17:41.892479+00:00",
+        "ref": "831365014052012032"
       }
     }
   }
