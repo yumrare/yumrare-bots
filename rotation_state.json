@@ -351,9 +351,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "milka-oreo-sandwich",
+      "at": "2026-10-25T15:57:53.778467+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "cadbury-mini-eggs",
+  "last_slug": "milka-oreo-sandwich",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -491,6 +498,10 @@
       "cadbury-mini-eggs": {
         "at": "2026-10-25T14:18:16.669525+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypfla5zqf24"
+      },
+      "milka-oreo-sandwich": {
+        "at": "2026-10-25T15:57:53.777717+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypl5eqgdt24"
       }
     },
     "tumblr": {
