@@ -379,9 +379,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "walkers-prawn-cocktail",
+      "at": "2026-10-25T19:49:55.904968+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-ketchup-canada",
+  "last_slug": "walkers-prawn-cocktail",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -527,6 +534,10 @@
       "haitai-honey-butter": {
         "at": "2026-10-25T17:52:49.160297+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myprkuq3ri2z"
+      },
+      "walkers-prawn-cocktail": {
+        "at": "2026-10-25T19:49:55.904214+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypy4bw7av26"
       }
     },
     "tumblr": {
