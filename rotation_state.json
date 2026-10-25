@@ -358,9 +358,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "calbee-pizza-potato",
+      "at": "2026-10-25T16:58:50.785024+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "milka-oreo-sandwich",
+  "last_slug": "calbee-pizza-potato",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -600,6 +607,10 @@
       "cadbury-mini-eggs": {
         "at": "2026-10-25T14:18:17.988336+00:00",
         "ref": "831455648572194816"
+      },
+      "calbee-pizza-potato": {
+        "at": "2026-10-25T16:58:50.784156+00:00",
+        "ref": "831465749820358656"
       }
     }
   }
