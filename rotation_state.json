@@ -393,9 +393,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "mccoys-flame-grilled-steak",
+      "at": "2026-10-25T21:51:25.452638+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-cucumber",
+  "last_slug": "mccoys-flame-grilled-steak",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -545,6 +552,10 @@
       "walkers-prawn-cocktail": {
         "at": "2026-10-25T19:49:55.904214+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypy4bw7av26"
+      },
+      "mccoys-flame-grilled-steak": {
+        "at": "2026-10-25T21:51:25.451524+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myq6vjofgt2i"
       }
     },
     "tumblr": {
