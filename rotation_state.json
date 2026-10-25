@@ -407,9 +407,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "ruffles-sour-cream-bacon",
+      "at": "2026-10-25T23:50:59.165423+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "monster-munch-pickled-onion",
+  "last_slug": "ruffles-sour-cream-bacon",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -563,6 +570,10 @@
       "mccoys-flame-grilled-steak": {
         "at": "2026-10-25T21:51:25.451524+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myq6vjofgt2i"
+      },
+      "ruffles-sour-cream-bacon": {
+        "at": "2026-10-25T23:50:59.164505+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myqfld3bor26"
       }
     },
     "tumblr": {
