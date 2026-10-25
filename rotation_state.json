@@ -336,9 +336,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "kinder-happy-hippo",
+      "at": "2026-10-25T13:25:54.731438+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "galaxy-minstrels",
+  "last_slug": "kinder-happy-hippo",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -468,6 +475,10 @@
       "galaxy-minstrels": {
         "at": "2026-10-24T23:48:50.356965+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mynuyksj4r2n"
+      },
+      "kinder-happy-hippo": {
+        "at": "2026-10-25T13:25:54.730585+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypcnm4szp26"
       }
     },
     "tumblr": {
