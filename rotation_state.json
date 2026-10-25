@@ -372,9 +372,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "lays-ketchup-canada",
+      "at": "2026-10-25T18:59:40.430856+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "haitai-honey-butter",
+  "last_slug": "lays-ketchup-canada",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -622,6 +629,10 @@
       "calbee-pizza-potato": {
         "at": "2026-10-25T16:58:50.784156+00:00",
         "ref": "831465749820358656"
+      },
+      "lays-ketchup-canada": {
+        "at": "2026-10-25T18:59:40.430212+00:00",
+        "ref": "831473351580073984"
       }
     }
   }
