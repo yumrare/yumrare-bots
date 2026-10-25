@@ -386,9 +386,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "lays-cucumber",
+      "at": "2026-10-25T20:50:20.601375+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "walkers-prawn-cocktail",
+  "last_slug": "lays-cucumber",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -644,6 +651,10 @@
       "lays-ketchup-canada": {
         "at": "2026-10-25T18:59:40.430212+00:00",
         "ref": "831473351580073984"
+      },
+      "lays-cucumber": {
+        "at": "2026-10-25T20:50:20.600741+00:00",
+        "ref": "831480314330251264"
       }
     }
   }
