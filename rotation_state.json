@@ -365,9 +365,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "haitai-honey-butter",
+      "at": "2026-10-25T17:52:49.161355+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "calbee-pizza-potato",
+  "last_slug": "haitai-honey-butter",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -509,6 +516,10 @@
       "milka-oreo-sandwich": {
         "at": "2026-10-25T15:57:53.777717+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypl5eqgdt24"
+      },
+      "haitai-honey-butter": {
+        "at": "2026-10-25T17:52:49.160297+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myprkuq3ri2z"
       }
     },
     "tumblr": {
