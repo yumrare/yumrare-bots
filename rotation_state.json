@@ -343,9 +343,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "cadbury-mini-eggs",
+      "at": "2026-10-25T14:18:17.989257+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "kinder-happy-hippo",
+  "last_slug": "cadbury-mini-eggs",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -479,6 +487,10 @@
       "kinder-happy-hippo": {
         "at": "2026-10-25T13:25:54.730585+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypcnm4szp26"
+      },
+      "cadbury-mini-eggs": {
+        "at": "2026-10-25T14:18:16.669525+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mypfla5zqf24"
       }
     },
     "tumblr": {
@@ -573,6 +585,10 @@
       "haribo-tangfastics": {
         "at": "2026-10-24T22:52:50.682331+00:00",
         "ref": "831397423948742656"
+      },
+      "cadbury-mini-eggs": {
+        "at": "2026-10-25T14:18:17.988336+00:00",
+        "ref": "831455648572194816"
       }
     }
   }
