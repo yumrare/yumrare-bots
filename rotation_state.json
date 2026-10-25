@@ -400,9 +400,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "monster-munch-pickled-onion",
+      "at": "2026-10-25T22:52:17.988363+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "mccoys-flame-grilled-steak",
+  "last_slug": "monster-munch-pickled-onion",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -666,6 +673,10 @@
       "lays-cucumber": {
         "at": "2026-10-25T20:50:20.600741+00:00",
         "ref": "831480314330251264"
+      },
+      "monster-munch-pickled-onion": {
+        "at": "2026-10-25T22:52:17.987347+00:00",
+        "ref": "831487987112099840"
       }
     }
   }
