@@ -457,9 +457,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "tims-cascade-jalapeno",
+      "at": "2026-10-26T20:01:07.092595+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "calbee-jagabee",
+  "last_slug": "tims-cascade-jalapeno",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -633,6 +640,10 @@
       "ruffles-queso": {
         "at": "2026-10-26T18:04:55.596310+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myscpgrcbs22"
+      },
+      "tims-cascade-jalapeno": {
+        "at": "2026-10-26T20:01:07.091164+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mysj77chpn22"
       }
     },
     "tumblr": {
