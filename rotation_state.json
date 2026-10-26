@@ -414,9 +414,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "sabritas-adobadas",
+      "at": "2026-10-26T15:08:23.132714+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "ruffles-sour-cream-bacon",
+  "last_slug": "sabritas-adobadas",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -574,6 +581,10 @@
       "ruffles-sour-cream-bacon": {
         "at": "2026-10-25T23:50:59.164505+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myqfld3bor26"
+      },
+      "sabritas-adobadas": {
+        "at": "2026-10-26T15:08:23.131488+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myrytqxaej2z"
       }
     },
     "tumblr": {
