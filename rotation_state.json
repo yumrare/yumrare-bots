@@ -471,9 +471,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "funny-frisch-chipsfrisch",
+      "at": "2026-10-26T21:58:31.170693+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-india-magic-masala",
+  "last_slug": "funny-frisch-chipsfrisch",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -651,6 +658,10 @@
       "tims-cascade-jalapeno": {
         "at": "2026-10-26T20:01:07.091164+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mysj77chpn22"
+      },
+      "funny-frisch-chipsfrisch": {
+        "at": "2026-10-26T21:58:31.169607+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myspr566yd2i"
       }
     },
     "tumblr": {
