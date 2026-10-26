@@ -429,9 +429,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "pringles-prawn-cocktail",
+      "at": "2026-10-26T16:24:38.938385+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-patatje-joppie",
+  "last_slug": "pringles-prawn-cocktail",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -597,6 +604,10 @@
       "lays-patatje-joppie": {
         "at": "2026-10-26T15:29:08.093126+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myrzyucc4k24"
+      },
+      "pringles-prawn-cocktail": {
+        "at": "2026-10-26T16:24:38.937574+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mys544vpur2i"
       }
     },
     "tumblr": {
