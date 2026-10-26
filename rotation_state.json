@@ -485,9 +485,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "walkers-cheese-onion",
+      "at": "2026-10-26T23:57:34.926617+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "chitato",
+  "last_slug": "walkers-cheese-onion",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -669,6 +676,10 @@
       "funny-frisch-chipsfrisch": {
         "at": "2026-10-26T21:58:31.169607+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myspr566yd2i"
+      },
+      "walkers-cheese-onion": {
+        "at": "2026-10-26T23:57:34.925479+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myswg22qbj26"
       }
     },
     "tumblr": {
