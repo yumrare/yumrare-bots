@@ -443,9 +443,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "ruffles-queso",
+      "at": "2026-10-26T18:04:55.597099+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "smiths-chicken",
+  "last_slug": "ruffles-queso",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -615,6 +622,10 @@
       "pringles-prawn-cocktail": {
         "at": "2026-10-26T16:24:38.937574+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mys544vpur2i"
+      },
+      "ruffles-queso": {
+        "at": "2026-10-26T18:04:55.596310+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myscpgrcbs22"
       }
     },
     "tumblr": {
