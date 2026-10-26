@@ -464,9 +464,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "lays-india-magic-masala",
+      "at": "2026-10-26T20:59:32.982246+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "tims-cascade-jalapeno",
+  "last_slug": "lays-india-magic-masala",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -770,6 +777,10 @@
       "calbee-jagabee": {
         "at": "2026-10-26T19:16:37.872288+00:00",
         "ref": "831565015441080321"
+      },
+      "lays-india-magic-masala": {
+        "at": "2026-10-26T20:59:32.981587+00:00",
+        "ref": "831571490261614592"
       }
     }
   }
