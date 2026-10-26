@@ -421,9 +421,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "lays-patatje-joppie",
+      "at": "2026-10-26T15:29:09.523759+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "sabritas-adobadas",
+  "last_slug": "lays-patatje-joppie",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -585,6 +593,10 @@
       "sabritas-adobadas": {
         "at": "2026-10-26T15:08:23.131488+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myrytqxaej2z"
+      },
+      "lays-patatje-joppie": {
+        "at": "2026-10-26T15:29:08.093126+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myrzyucc4k24"
       }
     },
     "tumblr": {
@@ -699,6 +711,10 @@
       "monster-munch-pickled-onion": {
         "at": "2026-10-25T22:52:17.987347+00:00",
         "ref": "831487987112099840"
+      },
+      "lays-patatje-joppie": {
+        "at": "2026-10-26T15:29:09.522724+00:00",
+        "ref": "831550703878209536"
       }
     }
   }
