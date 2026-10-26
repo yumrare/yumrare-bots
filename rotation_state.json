@@ -478,9 +478,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "chitato",
+      "at": "2026-10-26T23:02:48.862739+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "funny-frisch-chipsfrisch",
+  "last_slug": "chitato",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -792,6 +799,10 @@
       "lays-india-magic-masala": {
         "at": "2026-10-26T20:59:32.981587+00:00",
         "ref": "831571490261614592"
+      },
+      "chitato": {
+        "at": "2026-10-26T23:02:48.861680+00:00",
+        "ref": "831579245682802688"
       }
     }
   }
