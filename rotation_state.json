@@ -436,9 +436,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "smiths-chicken",
+      "at": "2026-10-26T17:16:30.245488+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "pringles-prawn-cocktail",
+  "last_slug": "smiths-chicken",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -726,6 +733,10 @@
       "lays-patatje-joppie": {
         "at": "2026-10-26T15:29:09.522724+00:00",
         "ref": "831550703878209536"
+      },
+      "smiths-chicken": {
+        "at": "2026-10-26T17:16:30.244489+00:00",
+        "ref": "831557457727897600"
       }
     }
   }
