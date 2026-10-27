@@ -563,9 +563,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "pringles-butter-caramel",
+      "at": "2026-10-27T23:57:42.562535+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "pringles-paprika",
+  "last_slug": "pringles-butter-caramel",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -775,6 +782,10 @@
       "tayto-cheese-onion": {
         "at": "2026-10-27T22:00:14.563569+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myvad4xxx72z"
+      },
+      "pringles-butter-caramel": {
+        "at": "2026-10-27T23:57:42.561258+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myvgv6p7tg22"
       }
     },
     "tumblr": {
