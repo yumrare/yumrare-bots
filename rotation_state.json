@@ -499,9 +499,17 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "lays-hot-chili-squid",
+      "at": "2026-10-27T14:39:54.108505+00:00",
+      "platforms": [
+        "bluesky",
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "lays-nori-seaweed",
+  "last_slug": "lays-hot-chili-squid",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -691,6 +699,10 @@
       "lays-nori-seaweed": {
         "at": "2026-10-27T13:43:59.185995+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myuelracgv2n"
+      },
+      "lays-hot-chili-squid": {
+        "at": "2026-10-27T14:39:52.494151+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myuhpp6nac2u"
       }
     },
     "tumblr": {
@@ -825,6 +837,10 @@
       "chitato": {
         "at": "2026-10-26T23:02:48.861680+00:00",
         "ref": "831579245682802688"
+      },
+      "lays-hot-chili-squid": {
+        "at": "2026-10-27T14:39:54.107469+00:00",
+        "ref": "831638201771982848"
       }
     }
   }
