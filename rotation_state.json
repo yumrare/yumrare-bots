@@ -528,9 +528,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "rancheritos",
+      "at": "2026-10-27T19:16:07.108227+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "doritos-incognita",
+  "last_slug": "rancheritos",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -874,6 +881,10 @@
       "lays-receta-campesina": {
         "at": "2026-10-27T17:18:09.460713+00:00",
         "ref": "831648158588223488"
+      },
+      "rancheritos": {
+        "at": "2026-10-27T19:16:07.107340+00:00",
+        "ref": "831655580085141504"
       }
     }
   }
