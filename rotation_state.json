@@ -507,9 +507,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "doritos-chilli-heatwave",
+      "at": "2026-10-27T16:16:28.899123+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-hot-chili-squid",
+  "last_slug": "doritos-chilli-heatwave",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -703,6 +710,10 @@
       "lays-hot-chili-squid": {
         "at": "2026-10-27T14:39:52.494151+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myuhpp6nac2u"
+      },
+      "doritos-chilli-heatwave": {
+        "at": "2026-10-27T16:16:28.898413+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myun4h3tyj22"
       }
     },
     "tumblr": {
