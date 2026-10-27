@@ -556,9 +556,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "pringles-paprika",
+      "at": "2026-10-27T23:02:00.901481+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "tayto-cheese-onion",
+  "last_slug": "pringles-paprika",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -918,6 +925,10 @@
       "smiths-salt-vinegar": {
         "at": "2026-10-27T20:58:45.724958+00:00",
         "ref": "831662037391278080"
+      },
+      "pringles-paprika": {
+        "at": "2026-10-27T23:02:00.900381+00:00",
+        "ref": "831669792307101696"
       }
     }
   }
