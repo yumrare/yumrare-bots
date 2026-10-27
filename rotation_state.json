@@ -542,9 +542,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "smiths-salt-vinegar",
+      "at": "2026-10-27T20:58:45.725869+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "kurkure-masala-munch",
+  "last_slug": "smiths-salt-vinegar",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -896,6 +903,10 @@
       "rancheritos": {
         "at": "2026-10-27T19:16:07.107340+00:00",
         "ref": "831655580085141504"
+      },
+      "smiths-salt-vinegar": {
+        "at": "2026-10-27T20:58:45.724958+00:00",
+        "ref": "831662037391278080"
       }
     }
   }
