@@ -521,9 +521,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "doritos-incognita",
+      "at": "2026-10-27T18:06:56.023376+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "lays-receta-campesina",
+  "last_slug": "doritos-incognita",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -721,6 +728,10 @@
       "doritos-chilli-heatwave": {
         "at": "2026-10-27T16:16:28.898413+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myun4h3tyj22"
+      },
+      "doritos-incognita": {
+        "at": "2026-10-27T18:06:56.022203+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myutbwymf522"
       }
     },
     "tumblr": {
