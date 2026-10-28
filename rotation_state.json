@@ -606,9 +606,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "barcel-chips-jalapeno",
+      "at": "2026-10-28T19:22:54.374135+00:00",
+      "platforms": [
+        "tumblr"
+      ]
     }
   ],
-  "last_slug": "old-dutch-ketchup",
+  "last_slug": "barcel-chips-jalapeno",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -1000,6 +1007,10 @@
       "hula-hoops-original": {
         "at": "2026-10-28T17:21:44.220395+00:00",
         "ref": "831738980516216832"
+      },
+      "barcel-chips-jalapeno": {
+        "at": "2026-10-28T19:22:54.373363+00:00",
+        "ref": "831746604132450304"
       }
     }
   }
