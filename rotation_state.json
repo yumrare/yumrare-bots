@@ -613,9 +613,16 @@
       "platforms": [
         "tumblr"
       ]
+    },
+    {
+      "slug": "koikeya-karamucho",
+      "at": "2026-10-28T20:09:49.628113+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "barcel-chips-jalapeno",
+  "last_slug": "koikeya-karamucho",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -845,6 +852,10 @@
       "old-dutch-ketchup": {
         "at": "2026-10-28T18:10:49.843171+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myxdxtku5c22"
+      },
+      "koikeya-karamucho": {
+        "at": "2026-10-28T20:09:49.626785+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myxkmmjzso2n"
       }
     },
     "tumblr": {
