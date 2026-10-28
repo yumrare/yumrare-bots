@@ -585,9 +585,16 @@
         "bluesky",
         "tumblr"
       ]
+    },
+    {
+      "slug": "wotsits-really-cheesy",
+      "at": "2026-10-28T16:23:09.879077+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "calbee-hot-spicy",
+  "last_slug": "wotsits-really-cheesy",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -809,6 +816,10 @@
       "calbee-hot-spicy": {
         "at": "2026-10-28T14:42:55.100152+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mywye2oyd52z"
+      },
+      "wotsits-really-cheesy": {
+        "at": "2026-10-28T16:23:09.877537+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myx5xcuzhj2u"
       }
     },
     "tumblr": {
