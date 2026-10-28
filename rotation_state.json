@@ -570,9 +570,16 @@
       "platforms": [
         "bluesky"
       ]
+    },
+    {
+      "slug": "calbee-consomme-punch",
+      "at": "2026-10-28T13:49:37.486427+00:00",
+      "platforms": [
+        "bluesky"
+      ]
     }
   ],
-  "last_slug": "pringles-butter-caramel",
+  "last_slug": "calbee-consomme-punch",
   "posted": {
     "bluesky": {
       "irn-bru": {
@@ -786,6 +793,10 @@
       "pringles-butter-caramel": {
         "at": "2026-10-27T23:57:42.561258+00:00",
         "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3myvgv6p7tg22"
+      },
+      "calbee-consomme-punch": {
+        "at": "2026-10-28T13:49:37.485497+00:00",
+        "ref": "at://did:plc:jr6cilrz2p3jbdlhnz24d2fy/app.bsky.feed.post/3mywverb4zr2n"
       }
     },
     "tumblr": {
